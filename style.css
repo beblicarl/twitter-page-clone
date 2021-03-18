@@ -203,6 +203,7 @@ body{
 .home{
   background-color: #000000;
   grid-area: home;
+  border-right: 1px solid #2E3235;
 
 }
 .top{
@@ -548,7 +549,217 @@ body{
 }
 /*TREND*/
 .trend{
-   background-color:royalblue;
-   
+   background-color: #000000;
+   padding-bottom: 0;  
+   overflow: hidden;  
+}
+
+.search{
+    height: 3rem;
+    width: 20rem;
+    background-color: #202327;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 24px;
+    margin: 3px 0 0 3rem;
+}
+.search .fas{
+    margin: 1rem 1rem 1rem 1rem;
+    color: #5A676C;
+}
+
+.search p{
+    color: #5A676C;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    margin: 1rem 1rem 1rem 0;
+}
+.trends{
+    width: 20rem;
+    height: auto;
+    margin: 7px 0 0 3rem;
+    background-color:#15181C;
+    border: 1px solid #6E767D;
+    border-radius: 22px;
+}
+.first-line{
+    width: 18.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 0 5px 1rem;
+    border-bottom: 1px solid #5a5a5a;
     
+    
+}
+.first-line p{
+    color: #D9D9D9;
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.first-line .fas{
+    color: #1C9EED;
+    margin: 1rem 1rem 0 0;
+    font-size: 1.1rem;
+}
+/*EWES*/
+.ewes{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 1.5rem 0.4rem 1rem;
+    border-bottom: 1px solid #6E767D;
+}
+.upper-writings p{
+    color: #6a6a6a;
+    font-family: sans-serif;
+    font-size: 0.7rem;
+}
+.upper-writings h3{
+    color: #D9D9D9;
+    line-height: 0rem;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+}
+.ewes .fas{
+    color: #6e767d;
+    margin-top: 10px;
+}
+
+/*GHANAIANS*/
+
+.ghanaians{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 1.5rem 0.4rem 1rem;
+    border-bottom: 1px solid #6E767D;
+}
+.upper-writings-one p{
+    color: #6a6a6a;
+    font-family: sans-serif;
+    font-size: 0.7rem;
+}
+.upper-writings-one h3{
+    color: #D9D9D9;
+    line-height: 0rem;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+}
+.ghanaians .fas{
+    color: #6e767d;
+    margin-top: 10px;
+}
+/*UEFA*/
+
+.uefa{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 1.5rem 0.4rem 1rem;
+    border-bottom: 1px solid #6E767D;
+}
+.upper-writings-two p{
+    color: #6a6a6a;
+    font-family: sans-serif;
+    font-size: 0.7rem;
+}
+.upper-writings-two h3{
+    color: #D9D9D9;
+    line-height: 0rem;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+}
+.uefa .fas{
+    color: #6e767d;
+    margin-top: 10px;
+}
+
+/*ENTERTAINMENT*/
+.entertainment{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 1.5rem 0.4rem 1rem;
+    border-bottom: 1px solid #6E767D;
+}
+.upper-writings-three p{
+    color: #6a6a6a;
+    font-family: sans-serif;
+    font-size: 0.7rem;
+}
+.upper-writings-three h3{
+    color: #D9D9D9;
+    line-height: -20px;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    position: absolute;
+    margin-top: -18px;
+}
+.entertainment .fas{
+    color: #6e767d;
+    margin-top: 10px;
+}
+#one{
+    margin-top: 1.6rem;
+}
+.upper-writings-three .fas{
+    color: #F0B117;
+}
+/*SHATTA WALE*/
+
+.shatta-wale{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 1.5rem 0.4rem 1rem;
+    border-bottom: 1px solid #6E767D;
+}
+.upper-writings-four p{
+    color: #6a6a6a;
+    font-family: sans-serif;
+    font-size: 0.7rem;
+}
+.upper-writings-four h3{
+    color: #D9D9D9;
+    line-height: 0rem;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+}
+.shatta-wale .fas{
+    color: #6e767d;
+    margin-top: 10px;
+}
+.show-more{
+    padding: 0 1.5rem 0 1rem;
+    color: #1C9EED;
+    font-family: sans-serif;
+}
+
+/*ENDING*/
+
+.ending{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.3rem 3rem 1rem 1rem;
+    height: 5rem;
+    width: 95%;
+    background-color: #000000;
+    margin-right: 1rem;
+    border-radius: 24px 24px 0 0;
+    box-shadow: 1px 2px 10px 2px #232323;
+}
+.ending h2{
+    padding-left: 1rem;
+    color: #D9D9D9;
+    font-family: sans-serif;
+}
+.ending-icons{
+    margin: 1.5rem 3rem 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+.ending-icons .far{
+    margin: 0 1.5rem 0 0;
+    font-size: 1.5rem;
+    color: #1C9EED;
+}
+.ending-icons .fas{
+    font-size: 1.5rem;
+    color: #1C9EED;
 }
